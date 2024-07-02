@@ -1,0 +1,73 @@
+            .thumbnail img { width: 350px; height: 200px; } 
+            .center { text-align: center; list-style-position: inside; } 
+            @font-face{ font-family: BARABARA; src: url(../fonts/BARABARA-final.otf); } 
+            B.solid { border-style: solid; } 
+            body { background-attachment: fixed; background-position: center; height: 100%; background-size: 1590px 900px; margin: 0; } 
+            .container { position: relative; width: 60%; } 
+            h1 { font-size: 70%; } 
+            .carousel > img { width: 70%; } 
+            .div { font-size: 15rem; line-height: 90vh; color: white; font-weight: 700; text-shadow: 5px 5px 0px orange; letter-spaccing: 25px; font-family: BARABARA; }
+            
+            .slider { overflow: hidden; width: 100%; height: 95vh; position: relative; } 
+            .slider .slide { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-size: cover; background-position: center; animation: slider 12.5s infinite; } 
+            .slider .slide:nth-child(1) { background-image: url(../../media/mainslides/c10.jpg); animation-delay: 0s; } 
+            .slider .slide:nth-child(2) { background-image: url(../../media/mainslides/a6.jpg); animation-delay: -2.5s; } 
+            .slider .slide:nth-child(3) { background-image: url(../../media/mainslides/d4.jpg); animation-delay: -5s; } 
+            .slider .slide:nth-child(4) { background-image: url(../../media/mainslides/e5.jpg); animation-delay: -7.5s; } 
+            .slider .slide:nth-child(5) { background-image: url(../../media/mainslides/f5.jpg); animation-delay: -10s; } 
+            
+            @keyframes slider { 
+                0%, 16%, 100% {  transform: translateX(0);  animation-timing-function: ease; }  
+                20% {  transform: translateX(-100%);  animation-timing-function: step-end; }  
+                96% {  transform: translateX(100%);  animation-timing-function: ease; } 
+            } 
+            
+            @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap'); 
+            .divit { display: inline-block; overflow: hidden; white-space: nowrap; text-align: center; } 
+            .divit:first-of-type { animation: appear 3.5s infinite; } 
+            
+            @keyframes appear{ 
+                0% {  opacity: 0; }  
+                20% {  opacity: 1; }  
+                80% {  opacity: 1; }  
+                100% {  opacity: 0; }
+            } 
+            
+            @keyframes slide{ 
+                0% {  margin-left: -800px; }  
+                20% {  margin-left: -800px; } 
+                35% {  margin-left: 0px; }  
+                100% {  margin-left: 0px; } 
+            } 
+            
+            @keyframes reveal{ 
+                0% {  opacity: 0;  width: 0px; }  
+                20% {  opacity: 1;  width: 0px; }  
+                30% {  width: 655px; }  
+                80% {  opacity: 1; }  
+                100% {  opacity: 0;  width: 655px; } 
+            } 
+            
+            table, th, td { border: 0px solid black; } 
+            #loading-screen {
+                position: fixed;
+                top: 0;
+                left: 0;
+                width: 100%;
+                height: 100%;
+                background-color: rgba(152, 255, 152, 1);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                z-index: 9999;
+                animation: fade-out 2.5s; 
+            } 
+            .loader { border: 16px solid #f3f3f3; border-radius: 50%; border-top: 16px solid #3498db; width: 120px; height: 120px; animation: spin 1s linear infinite; } 
+            @keyframes spin { 
+                0% {  transform: rotate(0deg); }  
+                100% {  transform: rotate(360deg); } 
+            }
+            
+            @keyframes fade-out { 
+                from {  opacity: 1; }  to {  opacity: 0; } 
+            }

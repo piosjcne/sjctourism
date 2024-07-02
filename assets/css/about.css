@@ -1,0 +1,34 @@
+    .thumbnail img{
+    width: 350px;
+    height: 200px;
+    object-fit: cover;
+    }
+    @font-face{
+    font-family:BARABARA;
+    src: url(../fonts/BARABARA-final.otf)
+    }
+    body {
+    background: url(../img/a1.jpg); 
+    background-attachment: fixed;
+    background-position: center;
+    height: 100%;
+    background-size: 1600px 1000px;
+    margin: 0;
+    }
+    .container {
+    position: relative;
+    width: 90%;
+    }
+    .div{
+    font-size: 15rem;
+    line-height: 90vh;
+    color: white;
+    font-weight: 700;
+    text-shadow: 5px 5px 0px orange;
+    10px 10px 0px blue;
+    letter-spaccing: 25px;
+    font-family: BARABARA;
+    }
+    th, td {
+    padding: 10px;
+    }
