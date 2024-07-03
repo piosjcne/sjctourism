@@ -19,65 +19,61 @@
       <link rel="stylesheet" href="<?=PATH?>assets/css/nav.css" />
       <style>
          .thumbnail img{
-            width: 400px;
-             height: 350px;
-             object-fit: cover;
+         width: 400px;
+         height: 350px;
+         object-fit: cover;
          }
          LI{
-            font-size: 20px;
-            text-transform:uppercase;
+         font-size: 20px;
+         text-transform:uppercase;
          }
          @font-face{
-            font-family: BARABARA;
-            src: url(<?=PATH?>assets/fonts/BARABARA-final.otf)
+         font-family: BARABARA;
+         src: url(<?=PATH?>assets/fonts/BARABARA-final.otf)
          }
          @media screen and (max-width: 600px) {
-            .topnav a:not(:first-child) {display: none;}
-            .topnav a.icon {
-                float: right;
-                display: block;
-            }
+         .topnav a:not(:first-child) {display: none;}
+         .topnav a.icon {
+         float: right;
+         display: block;
+         }
          }
          @media screen and (max-width: 600px) {
-            .topnav.responsive {position: relative;}
-            .topnav.responsive .icon {
-                position: absolute;
-                right: 0;
-                top: 0;
-            }
-            .topnav.responsive a {
-                float: none;
-                display: block;
-                text-align: left;
-            }
+         .topnav.responsive {position: relative;}
+         .topnav.responsive .icon {
+         position: absolute;
+         right: 0;
+         top: 0;
          }
-         
-        /* Navbar Styles */
-        #navbar {
-            background-color: #AEE4B9; /* Black background color */
-            position: fixed; /* Make it stick/fixed */
-            bottom: 0;
-            top: 1550px; /* Hide the navbar 50 px outside of the top view */
-            width: 100%; /* Full width */
-            transition: top 0.4s; /* Transition effect when sliding down (and up) */
-            height: 13%;
-        }
-
-        /* Style the navbar links */
-        #navbar a {
-            float: left;
-            display: block;
-            color: #f2f2f2;
-            text-align: center;
-            padding: 9px 9px;
-            text-decoration: none;
-            font-size: 7px;
-        }
-
-        #navbar a:hover {
-            background-color: #ddd;
-            color: white;
-        }
+         .topnav.responsive a {
+         float: none;
+         display: block;
+         text-align: left;
+         }
+         }
+         #navbar {
+         background-color: #AEE4B9; /* Black background color */
+         position: fixed; /* Make it stick/fixed */
+         bottom: 0;
+         top: 1550px; /* Hide the navbar 50 px outside of the top view */
+         width: 100%; /* Full width */
+         transition: top 0.4s; /* Transition effect when sliding down (and up) */
+         height: 13%;
+         }
+         /* Style the navbar links */
+         #navbar a {
+         float: left;
+         display: block;
+         color: #f2f2f2;
+         text-align: center;
+         padding: 9px 9px;
+         text-decoration: none;
+         font-size: 7px;
+         }
+         #navbar a:hover {
+         background-color: #ddd;
+         color: white;
+         }
       </style>
       <script>
          function myFunction() {
