@@ -62,13 +62,13 @@
          }
          /* Style the navbar links */
          #navbar a {
-         float: left;
-         display: block;
-         color: #f2f2f2;
-         text-align: center;
-         padding: 9px 9px;
-         text-decoration: none;
-         font-size: 7px;
+            float: left;
+            display: block;
+            color: #f2f2f2;
+            text-align: center;
+            padding: 9px 9px;
+            text-decoration: none;
+            font-size: 7px;
          }
          #navbar a:hover {
          background-color: #ddd;
