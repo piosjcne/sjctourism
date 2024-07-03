@@ -19,37 +19,37 @@
       <link rel="stylesheet" href="<?=PATH?>assets/css/nav.css" />
       <style>
          .thumbnail img{
-         width: 400px;
-         height: 350px;
-         object-fit: cover;
+             width: 400px;
+             height: 350px;
+             object-fit: cover;
          }
          LI{
-         font-size: 20px;
-         text-transform:uppercase;
+             font-size: 20px;
+             text-transform:uppercase;
          }
          @font-face{
-         font-family: BARABARA;
-         src: url(<?=PATH?>assets/fonts/BARABARA-final.otf)
+             font-family: BARABARA;
+             src: url(<?=PATH?>assets/fonts/BARABARA-final.otf)
          }
          @media screen and (max-width: 600px) {
-         .topnav a:not(:first-child) {display: none;}
-         .topnav a.icon {
-         float: right;
-         display: block;
-         }
+             .topnav a:not(:first-child) {display: none;}
+             .topnav a.icon {
+                 float: right;
+                 display: block;
+             }
          }
          @media screen and (max-width: 600px) {
-         .topnav.responsive {position: relative;}
-         .topnav.responsive .icon {
-         position: absolute;
-         right: 0;
-         top: 0;
-         }
-         .topnav.responsive a {
-         float: none;
-         display: block;
-         text-align: left;
-         }
+             .topnav.responsive {position: relative;}
+             .topnav.responsive .icon {
+                 position: absolute;
+                 right: 0;
+                 top: 0;
+             }
+             .topnav.responsive a {
+                 float: none;
+                 display: block;
+                 text-align: left;
+             }
          }
          #navbar {
          background-color: #AEE4B9; /* Black background color */
